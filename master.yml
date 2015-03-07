@@ -181,5 +181,5 @@ coreos:
         Restart=always
         RestartSec=10
   update:
-    group: alpha
-    reboot-strategy: off
+    group: stable
+    reboot-strategy: etcd-lock
